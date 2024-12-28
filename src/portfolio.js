@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 1500 // Set animation duration as per your animation
+  duration: 1100 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -101,7 +101,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [{
       schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/Babes-Bolyai_UBB.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "September 2017 - April 2019",
       desc: "Participated in the research of XXX and published 3 papers.",
