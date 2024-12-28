@@ -5,3 +5,17 @@
   color: white;
   transition: "0.1s";
 }
+
+@import "../_globalColor";
+
+.dark-mode {
+  background-color: $darkBackground;
+  color: white;
+  transition: "0.1s";
+}
+
+.content-container {
+  max-width: 1510px;
+  margin: 0 auto;
+  padding: 0 20px; /* Optional: Add some padding for better spacing */
+}
